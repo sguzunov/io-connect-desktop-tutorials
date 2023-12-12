@@ -173,7 +173,7 @@ public async ngOnInit(): Promise<void> {
 If everything is correct, when you open the apps, you should see in the top left corner "Glue42 is available".
 
 Next, you need to create app definitions and add them to the applications configuration folder. You must create a JSON file with app configuration. 
-Place this file in the `%LocalAppData%\Tick42\UserData\<ENV>-<REG>\apps` folder, where `<ENV>-<REG>` must be replaced with the environment and region of your Glue42 Enterprise copy (e.g., T42-DEMO).
+Place this file in the [App Store] (https://docs.interop.io/desktop/capabilities/app-management/overview/index.html#app_stores) (usually `%LocalAppData%\interop.io\io.Connect Desktop\Desktop\config\apps` folder) of your io.Connect Desktop.
 
 You can copy the app definitions for this tutorial from below:
 
